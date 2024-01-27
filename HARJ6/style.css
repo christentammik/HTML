@@ -1,0 +1,81 @@
+/* üldvormindus */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ededed;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    background-color: #ffffff;
+}
+/* Päis */
+.banner {
+    background-color: #565656;
+    color: #ffffff;
+}
+
+.banner h1 {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 90px;
+    margin: 0 20px;
+}
+
+.navbar {
+    background-color: #000;
+    color: #ffffff;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar ul li {
+    line-height: 50px;
+    margin: 0 20px;
+}
+
+.navbar a {
+    color:#ffffff;
+    text-decoration: none
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+/* Sisu */
+.content {
+    padding: 20px;
+}
+
+.content p {
+    padding: 10px 0;
+    line-height: 22px;
+}
+
+h2 {
+    font-weight: 400;
+    padding: 20px 0;
+}
+
+.content img {
+    max-width: 100%;
+}
+
+.content ul {
+    padding-left: 40px;
+}
+/* Alus */
+.footer {
+    background-color: #000;
+    color: #ffffff;
+    line-height: 50px;
+    padding: 0 20px;
+}
